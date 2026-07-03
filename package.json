@@ -4,7 +4,8 @@
   "description": "Typescript is a **superset of JavaScript** which is developed and maintain by Microsoft. It adds **static typing** to JavaScript, meaning you can define types for variables, function parameters, return values, and more. TypeScript code compiles down to plain JavaScript that can run in any browser or JavaScript environment.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ndoe dist/index.js",
+    "dev": "npx tsc"
   },
   "repository": {
     "type": "git",

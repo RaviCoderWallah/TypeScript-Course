@@ -59,3 +59,32 @@ Follow below instructions step by step:
  - ``make src and dist folder``
  - ``for create dist index.ts file npx tsc``
  -- ``now run node dist/index.js``
+
+----
+
+ ## Type Annotations 
+Type annotations are a way to **explicitly tell TypeScript what type of value** a variable, function parameter, or return value should have.
+
+ ```
+const personName: string = "Ravi Verma";
+
+let age: number = 56;
+
+const isAdult: boolean = true;
+
+const userList: string[] = ["Ravi", "Mukesh", "Alok"];
+
+const ageList: number[] = [23, 34, 56];
+
+let anything: any = "Ravi Verma";
+anything = 56;
+
+function add(a: number, b: number): number {
+    return a + b;
+}
+
+function greet(name: string): void {
+    console.log(`Hello, ${name}`);
+}
+ ```
+ ----
