@@ -20,7 +20,7 @@ Typescript is a **superset of JavaScript** which is developed and maintain by Mi
 - **Output:** A linear stream of tokens ready for structural analysis.
 
 ## 3. Parser
-- **Function:** Consumes the token stream and constructs an **Abstract Syntax Tree (AST)**.
+- **Function:** Consumes the token stream and constructs an **Abstract Syntax Tree (AST)**. You can learn more about **[AST Explorer](https://astexplorer.net/)**
 - **Key Action:** Validates syntax grammar (e.g., matching brackets, correct statement structure). It understands *how* the code is structured but not *what* the types are.
 - **Output:** A hierarchical tree representation of the code's syntactic structure.
 - **Note:** Syntax errors are caught here. Type errors are **NOT** caught here.
@@ -49,3 +49,13 @@ Typescript is a **superset of JavaScript** which is developed and maintain by Mi
 - **.js File:** The final executable JavaScript bundle. Contains zero TypeScript syntax.
 - **.map File (Source Map):** A mapping file that correlates lines/columns in the generated JS back to the original TS source.
 - **Purpose:** Enables debugging in browser DevTools using original TypeScript source code and variable names.
+
+## How to install Typescript 
+Follow below instructions step by step: 
+ - ``npm init -y``
+ - ``npm i -D typescript``
+ - ``npx tsc --init``
+ - ``go to tsconfig.json file and uncomment file layout``
+ - ``make src and dist folder``
+ - ``for create dist index.ts file npx tsc``
+ -- ``now run node dist/index.js``

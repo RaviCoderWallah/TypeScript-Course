@@ -1,0 +1,23 @@
+{
+  "name": "learn-typescript",
+  "version": "1.0.0",
+  "description": "Typescript is a **superset of JavaScript** which is developed and maintain by Microsoft. It adds **static typing** to JavaScript, meaning you can define types for variables, function parameters, return values, and more. TypeScript code compiles down to plain JavaScript that can run in any browser or JavaScript environment.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaviCoderWallah/TypeScript-Course.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RaviCoderWallah/TypeScript-Course/issues"
+  },
+  "homepage": "https://github.com/RaviCoderWallah/TypeScript-Course#readme",
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  }
+}
