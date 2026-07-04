@@ -104,3 +104,21 @@ apiStatus = "pending"; //Ok, its possible pending
 apiStatus = "fulfilled"; //Ok, its possible fulfilled
 //apiStatus = "reject"; //Error, because its not exists in apiStatus 
  ```
+
+ ## Type Narrowing
+ ```
+ function printId(id: string | number){
+    if(typeof id === "string"){
+        console.log(id.toUpperCase());
+    }else{
+        console.log(id.toFixed(2));
+    }
+}
+
+function alertsType(msg?: string){
+    if(msg){
+        return `Alert Msg: ${msg}`;
+    }
+    return `Default Alert Message`;
+}
+ ```
